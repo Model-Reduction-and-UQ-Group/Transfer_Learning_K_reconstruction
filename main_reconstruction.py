@@ -36,7 +36,7 @@ MODEL_TYPE_STR: str = "reconstruction"
 MODEL_TYPE_DIR: str = core.CWD  + "/" + MODEL_TYPE_STR
 MODEL_BASE_DIR: str = MODEL_TYPE_DIR + "/MODEL/"
 # HDF5_DIR      : str = MODEL_BASE_DIR + "HDF5_DATA/"
-HDF5_DIR      : str = "C://Users//aless//OneDrive - Alma Mater Studiorum Università di Bologna//Giulia-Alessia//Alessia//2. TL_Krec//WRR//0.HDF5_data//Github_data//"
+HDF5_DIR      : str = "MFdata/"
 
 
 #  ######################
@@ -744,4 +744,5 @@ def main():
 
 if __name__ == '__main__':
    main()
+
 
