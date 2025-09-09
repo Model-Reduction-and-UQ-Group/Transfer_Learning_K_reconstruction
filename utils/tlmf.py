@@ -8,23 +8,6 @@ import torch.nn.functional as F
 import copy
 
 
-'''
-"Accelerated training of neural networks via multi-fidelity simulations"
-    "https://github.com/Model-Reduction-and-UQ-Group"
-
-CNN surrogates trained on multiple levels of data
-Sample code to train model on 128x128(HF), 64x64(LF) and 32x32(VLF) data. 
-Final model will be saved.
-
-The training script for the CNN surrogate levarges ideas and methodology inspired by: 
-https://github.com/DDMS-ERE-Stanford/Transfer_Learning_on_Multi_Fidelity_Data.git
-
-University of Bologna, Model Reduction and UQ Group
-
-Alessia Chiofalo (alessia.chiofalo3@unibo.it)
-Jan 2025
-'''
-
 
 def getTorchAvailableDevice():
    '''
@@ -328,6 +311,7 @@ def trainModel_(train_loader, test_loader, \
 
 def getLossData_():
    return __loss_curves
+
 
 
 
