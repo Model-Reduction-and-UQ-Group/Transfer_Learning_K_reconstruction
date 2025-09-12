@@ -2,7 +2,7 @@ import sys
 import utils.core as core
 
 '''
-"Transfer learning of surrogates from multifidelity groundwater simulations"
+"Transfer learning of neural surrogates on multifidelity groundwater simulations"
     "https://github.com/Model-Reduction-and-UQ-Group/Transfer_Learning_K_reconstruction"
 
 CNN surrogates trained on multifidelity data.
@@ -750,4 +750,5 @@ def main():
 
 if __name__ == '__main__':
    main()
+
 
